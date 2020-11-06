@@ -1,0 +1,70 @@
+html{
+	box-sizing: border-box;
+	max-width: 100%
+	font-size: 20px;
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+	background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(2.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-transform: uppercase;
+}
+
+
+.continer{
+	text-align: center;
+	padding: 10px;
+}
+
+ .main-nav a{
+	text-decoration: none;
+	margin:10px;
+	color: #13F2FF;
+	padding:5px ;
+	border-bottom: 1px solid #FF8C00 ;
+	font-size: 90%;
+}
+ .main-nav a:hover{
+ 	color: black;
+ 	font-size: 95%;
+ 	border-bottom: 1px solid white;
+ 	transition:border-bottom 0.3s;
+ 	transition: font-size 0.9;
+	transition: color 0.9s;
+}
+.main-header{
+	font-size: 120%;
+	padding-top: 250px;
+	padding-bottom: 50px;
+	margin:10px;
+	color:white;
+	text-align: center;
+
+
+}
+.main-header p{
+	font-size: 90%;
+	width: 100%
+
+}
+
+.btn a{
+	border-bottom: 1px solid #FF8C00 ;
+	padding-bottom: 5px;
+	font-size:190%;
+	margin-top:25px;
+	text-decoration: none;
+	color: #13F2FF;
+	text-transform: none;
+}
+.btn a:hover{
+	color: black;
+	font-size: 180%;
+	border-bottom: 1px solid white;
+	transition:border-bottom 0.3s;
+	transition: font-size 0.9s;
+	transition: color 0.9;
+
+}
